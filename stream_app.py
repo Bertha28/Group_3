@@ -1,7 +1,7 @@
 import joblib
 joblib.dump(xgb_model, 'xgb_model.pkl')
 joblib.dump(scaler, 'scaler.pkl')
-%%writefile app.py
+
 import streamlit as st
 
 
